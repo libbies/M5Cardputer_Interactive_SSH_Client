@@ -61,7 +61,7 @@ void setup() {
     float batPercent = M5.Power.getBatteryLevel();
     float batVoltage = M5.Power.getBatteryVoltage();
     M5Cardputer.Display.printf(
-            "door-opener by catties ()\nbattery: %.2f %%  (%.2f v)\n",
+            "foudoor-opener by catties\nbattery: %.2f%%  (%.2fv)\n",
             batPercent,
             batVoltage
         );
